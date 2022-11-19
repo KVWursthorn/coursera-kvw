@@ -3,17 +3,17 @@ h1 {
 	font-size: 100%;
 }
 
-.chicken {
+#header-chicken {
 	font-weight: bold;
 	background-color: lightpink;
 }
 
-.beef {
+#header-beef {
 	font-weight: bold;
 	background-color: red;
 }
 
-.sushi {
+#header-sushi {
 	font-weight: bold;
 	background-color: yellow;
 }
