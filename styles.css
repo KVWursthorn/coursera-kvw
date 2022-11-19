@@ -1,4 +1,4 @@
-#title,h1 {
+#title {
 	font-weight: bold;
 	font-size: 200%;
 }
@@ -18,3 +18,6 @@
 	background-color: yellow;
 }
 
+div {
+	background-color: lightgray;
+}
