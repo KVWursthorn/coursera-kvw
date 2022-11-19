@@ -1,4 +1,18 @@
-p,h1 {
+h1 {
 	font-weight: bold;
-	color: green;
+}
+
+.chicken {
+	font-weight: bold;
+	background-color: lightpink;
+}
+
+.beef {
+	font-weight: bold;
+	background-color: red;
+}
+
+.sushi {
+	font-weight: bold;
+	background-color: yellow;
 }
