@@ -26,6 +26,7 @@ div {
 
 h2 {
 	width: 100px;
+	border: 2px black;
 	float: right;
 }
 
