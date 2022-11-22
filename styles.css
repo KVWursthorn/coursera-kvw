@@ -27,7 +27,8 @@ div {
 
 h2 {
 	width: 100px;
-	border: 2px black;
+	border: 2px;
+	border-color: black;
 	position: absolute;
 	top: 0px;
 	right: 0px;
