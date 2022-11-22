@@ -29,7 +29,8 @@ h2 {
 	width: 100px;
 	border: 2px black;
 	position: absolute;
-	right: 20px;
+	top: 0px;
+	right: 0px;
 }
 
 /******* Media Queries 
