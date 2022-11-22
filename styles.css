@@ -27,10 +27,6 @@ div {
 h2 {
 	width: 100px;
 	border: 2px black;
-	padding: 2px;
-	position: absolute;
-	bottom: 1px;
-	right: 1px;
 }
 
 /******* Media Queries *******/
