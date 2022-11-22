@@ -22,16 +22,12 @@ div {
 	box-sizing: border-box;
 	background-color: gray;
 	box-shadow: 5px 5px 5px darkgray;
-	position: relative;
 }
 
 h2 {
 	width: 100px;
 	border: 2px;
 	border-color: black;
-	position: absolute;
-	top: 0px;
-	right: 0px;
 }
 
 /******* Media Queries 
