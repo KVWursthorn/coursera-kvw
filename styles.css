@@ -15,13 +15,12 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .col {
     width: 100%;   
 }
-
 
 .name {
     
@@ -32,19 +31,29 @@ h2 {
     border-color: black;
     float: right;
     position: relative;    
-    margin-top: 0px;     
-    background-color: rgb(165, 240, 241);   
+    margin-top: 0px;        
 }
 
+#chicken-header {
+	background-color: lightpink;
+}
+
+#beef-header {
+	background-color: red;
+	color: white;
+}
+
+#sushi-header {
+	background-color: yellow;
+}
 .description {
     text-align: left;
     padding: 20px;
-    margin-top: 25px;
+    margin-top: 30px;
 } 
 
 .chicken {
-
-    background-color: lightpink;
+	background-color: lightgrey;
     border: 3px solid black;
     width: 90%;
     height: auto;       
@@ -55,7 +64,7 @@ h2 {
 }
 
 .beef {
-    background-color: red;
+    background-color: lightgrey;
     border: 3px solid black;
     width: 90%;
     height: auto;
@@ -66,7 +75,7 @@ h2 {
 }
 
 .sushi {
-    background-color: yellow;
+    background-color: lightgrey;
     border: 3px solid black;
     width: 90%;
     height: auto;
@@ -76,8 +85,7 @@ h2 {
     margin-bottom: 30px;
 } 
 
-
-/* desktop view */
+/*** Media Queries ***/
 @media (min-width: 992px) {
     .col-lg-4{
         float: left;
@@ -85,24 +93,16 @@ h2 {
     }    
 }
 
-/* tablet view */
-
 @media (min-width: 768px) and (max-width: 991px) {
-
-  
-
     .col-md-6 {
         float: left;
         width: 50%;         
     }
-
     .col-md-12 {
         float: left;
         width: 100%;
     }
 }
-
-/* mobile view */
 
 @media (max-width: 767px) {
     .col-lg-12{
